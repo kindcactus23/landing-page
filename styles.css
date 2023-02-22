@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100hv;
+}
+
+/* This section covers the header css */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.heroheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* This section covers the "random information" css */
