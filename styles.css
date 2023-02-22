@@ -1,9 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
-    height: 100hv;
 }
 
 /* This section covers the header css */
@@ -11,8 +9,8 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: #1f2937;
+    padding: 16px 200px;
 }
 
 .heroheader {
@@ -20,9 +18,28 @@ body {
     justify-content: space-between;
 }
 
+.heroheader a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .headerlogo {
     color: #f9faf8;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    min-width: 0;
+    gap: 20px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 h1 {
@@ -34,6 +51,30 @@ h1 {
 .description {
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+}
+
+.button button {
+    background-color: #3882F6;
+    color: #ffffff;
+}
+
+.profile-image {
+    display: flex;
+    width: 300px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
 }
 
 /* This section covers the "random information" css */
+
+.information {
+    background-color: white;
+}
