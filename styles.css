@@ -78,11 +78,26 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .information h1 {
+    display: flex;
     font-size: 32px;
     font-weight: 800;
     color: #1f2937;
+    justify-content: center;
+}
+
+.information ul {
+    display: flex;
+    min-width: none;
+    justify-content: space-between;
+    padding: 50px 300px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
 }
