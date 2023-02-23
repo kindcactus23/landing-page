@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-/* This section covers the header css */
+/* This section covers the header styles */
 
 .header {
     display: flex;
@@ -44,7 +44,7 @@ body {
     width: auto;
 }
 
-h1 {
+.profile-text h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
@@ -72,8 +72,17 @@ h1 {
     width: 450px;
 }
 
-/* This section covers the "random information" css */
+/* This section covers the "random information" styles */
 
 .information {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f2937;
 }
