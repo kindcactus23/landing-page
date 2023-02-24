@@ -12,6 +12,10 @@ body {
     background-color: #1f2937;
 }
 
+.header h1 {
+    font-size: 48px;
+}
+
 .heroheader {
     display: flex;
     justify-content: space-between;
@@ -79,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 0;
+    margin-top: 20px;
 }
 
 .information h1 {
@@ -123,3 +128,28 @@ body {
     width: 150px;
     text-align: center;
 }
+
+/* This section covers the "quote" styles */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    padding: 40px 280px;
+}
+
+.quote h3 {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.subquote {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
